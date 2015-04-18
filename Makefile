@@ -1,5 +1,6 @@
 obj-m += rootkit.o
 
+#Comment this out for non-CentOS systems.
 CENTOS = true
 
 ifdef CENTOS
